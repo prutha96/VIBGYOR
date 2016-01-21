@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="7"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/red"
+        android:text="@string/red"
+        android:background="#D50000"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/orange"
+        android:text="@string/orange"
+        android:background="#FF9800"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/yellow"
+        android:text="@string/yellow"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/green"
+        android:text="@string/green"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/blue"
+        android:text="@string/blue"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/indigo"
+        android:text="@string/indigo"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/violet"
+        android:text="@string/violet"
+        android:background="#8E24AA"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+</LinearLayout>
